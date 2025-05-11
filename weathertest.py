@@ -7,7 +7,7 @@ import urllib3
 data = pd.read_excel('/Users/leejungheon/Downloads/단기예보지점좌표(위경도)_20241031기준.xlsx')
 # print(data.head())
 
-serviceKey = "UwwSvv1zS3mMEr79c_t52A"
+serviceKey = ""
 valid_times = ["0200","0500","0800","1100","1400","1700","2000","2300"]
 now = datetime.now()
 hhmm = now.strftime("%H%M")
